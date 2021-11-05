@@ -3,29 +3,29 @@
 <div class="d-flex flex-column flex-root">
     <!--begin::Page-->
     <div class="page d-flex flex-row flex-column-fluid">
-        <?php include "layout/aside/_base.php"; ?>
+        <?php include "aside/_base.php"; ?>
 
 
         <!--begin::Wrapper-->
         <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
-            <?php include "layout/header/_base.php"; ?>
+            <?php include "header/_base.php"; ?>
 
 
             <!--begin::Content-->
             <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-                <?php include "layout/toolbars/_toolbar-1.php"; ?>
+                <?php include "toolbars/_toolbar-1.php"; ?>
 
 
                 <!--begin::Post-->
                 <div class="post d-flex flex-column-fluid" id="kt_post">
-                    <?php include "layout/_content.php"; ?>
+                    <?php include "_content.php"; ?>
 
 
                 </div>
                 <!--end::Post-->
             </div>
             <!--end::Content-->
-            <?php include "layout/_footer.php"; ?>
+            <?php include "_footer.php"; ?>
 
 
         </div>
@@ -35,7 +35,7 @@
 </div>
 <!--end::Root-->
 <!--begin::Drawers-->
-<?php include "layout/topbar/partials/_activity-drawer.php"; ?>
+<?php include "topbar/partials/_activity-drawer.php"; ?>
 
 
 <!--begin::Chat drawer-->
@@ -456,6 +456,7 @@
 <!--layout-partial:layout/explore/_main.html-->
 
 <!--end::Drawers-->
+
 <!--begin::Modals-->
 
 <!--layout-partial:partials/modals/_invite-friends.html-->
